@@ -1,0 +1,39 @@
+{
+  "version": "4",
+  "specifiers": {
+    "jsr:@leonschreiber96/exist-sdk-typescript@^2.0.1": "2.0.1",
+    "jsr:@std/dotenv@*": "0.225.3",
+    "npm:@types/node@*": "22.12.0"
+  },
+  "jsr": {
+    "@leonschreiber96/exist-sdk-typescript@2.0.1": {
+      "integrity": "f0cdc55612f01215166db7a7e272dca4187b2b1593d7166ad08b2a78ad96fa13"
+    },
+    "@std/dotenv@0.225.3": {
+      "integrity": "a95e5b812c27b0854c52acbae215856d9cce9d4bbf774d938c51d212711e8d4a"
+    }
+  },
+  "npm": {
+    "@types/node@22.12.0": {
+      "integrity": "sha512-Fll2FZ1riMjNmlmJOdAyY5pUbkftXslB5DgEzlIuNaiWhXd00FhWxVC/r4yV/4wBb9JfImTu+jiSvXTkJ7F/gA==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
+    "undici-types@6.20.0": {
+      "integrity": "sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg=="
+    }
+  },
+  "remote": {
+    "https://deno.land/std@0.119.0/_wasm_crypto/crypto.js": "1c565287b35f6eb1aa58499d0f4fbac99a9c30eb9a735c512d193a6493499e84",
+    "https://deno.land/std@0.119.0/_wasm_crypto/crypto.wasm.js": "e93d38b215c05c552669e9565654599b13e7898ebd3f10ac91e39413efda4b84",
+    "https://deno.land/std@0.119.0/_wasm_crypto/mod.ts": "9afe300945fe7e5bcec231b52b0016d8442d026b823f619bb5939b2cf66ff21b",
+    "https://deno.land/std@0.119.0/crypto/mod.ts": "8e1ec0ff94a4f08e3c4f72de5b88781566481602614e62291aa7ae7444ba11f0",
+    "https://deno.land/std@0.119.0/encoding/base64.ts": "0b58bd6477214838bf711eef43eac21e47ba9e5c81b2ce185fe25d9ecab3ebb3"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@leonschreiber96/exist-sdk-typescript@^2.0.1"
+    ]
+  }
+}

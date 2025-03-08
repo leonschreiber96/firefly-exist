@@ -1,0 +1,21 @@
+{
+  "lint": {
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "npm/**/*.ts"
+    ]
+  },
+  "fmt": {
+    "include": [
+      "src/**/*.ts"
+    ],
+    "indentWidth": 3,
+    "semiColons": true,
+    "lineWidth": 120
+  },
+  "imports": {
+    "@leonschreiber96/exist-sdk-typescript": "jsr:@leonschreiber96/exist-sdk-typescript@^2.0.1"
+  }
+}
